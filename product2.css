@@ -1,0 +1,159 @@
+body{
+    background-color: #28b8ea;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-card{
+    display: table;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    overflow: hidden;   /* agar fontnnya tetap didalam kotak*/
+    width: 400px;
+}
+
+.product-card,
+.product-image{
+    border-radius: 15px;  /* Untuk membuat lengkungan border */
+}
+
+.product-image{
+    background-color: #2d89aa;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.product-image img{
+    max-width: 100%;
+    width: 45%;
+}
+
+.product-title{
+    float: left;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.product-price{
+    float: right;
+    font-weight: bold;
+    font-size: 25px;
+    color: red;
+    margin-right: 20px;
+}
+
+.product-expect{
+    font-size: 18px;
+    color: #737373;
+}
+
+.product-button{
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none; /* Untuk membuat garis atau line */
+    font-weight: bold;
+}
+
+.product-buy-now{
+    float: left;
+    background-color: red;
+    
+}
+.product-add-to-cart{
+    float: right;
+    background-color: #527a9a;
+}
+
+.product-margin-left{
+    margin-left: 20px;
+}
+
+.product-margin-right{
+    margin-right: 20px;
+}
+
+.product-margin-bottom{
+    margin-bottom: 20px;
+}
+
+/* Agar Floatnya tidak melayang */
+.clear-both{
+    clear: both; 
+}
+
+/* a:hover{
+    font-size: 100px;
+} */
+
+/* a:focus{
+    font-size: 100px; 
+    border: 1px solid #000          
+} */
+
+/* a:active{
+    font-size: 100px;
+} */
+
+/* a:nth-child(n+1){
+    border: 3px solid red;
+} */
+/* a:nth-child(odd){
+    color: black;
+} */
+
+/* genap */
+/* a:nth-child(even){
+    color: black;
+} */
+ /* genap */
+/* div:not(.clear-both):nth-child(even){
+    color: black;
+} */
+/* a:last-child{
+    color: black ;
+} */
+
+ /* Untuk huruf pertama paragraf */
+/* .product-expect::first-letter{
+    font-weight: bold;
+} */
+
+ /* Untuk baris pertama paragraf */
+/* .product-expect::first-line{
+    color: red;
+} */
+
+/* sebelum paragraf wajib ada content */
+/* .product-price::before{
+    content: '';
+    border: 1px solid #000;
+} */
+
+/* attr(currency) di html juga di tambah currency */
+/* .product-price::after{
+    attr(currency);
+} */
+/* .product-price::after{
+    content:',-';
+} */
+
+/* ::selection{
+    background-color: black;
+    color: red;
+} */
+/* tipe terakhir dari si tag a */
+/* a:last-of-type{
+    color: black;
+} */    
+/* [href$="html"]{     karena pake dolar dibelakang si "html"
+    background-color: black;
+} */
+ /* [href|="html"]{    karena "htmlnya di depan"
+    background-color: black;
+ } */
+    /* [href*="html"]{
+        background-color: black;
+    } */
+
+  
